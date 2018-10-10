@@ -8,7 +8,7 @@ Move 3 rovers around a 10x10 grid with obstacles.
 Rovers rover1, rover2 and rover3 are positioned on [0,0], [1,0] and [2,0] respectively (grid's top-left corner) 
 and looking north ("R1", "R2" and "R3"). There are some obstacles around the grid too ("O"). The grid can be printed on screen with function:
 
-showGrid();
+#### showGrid();
 
 ### Moving rovers:
 
@@ -18,8 +18,8 @@ Rover Name: rover1/rover2/rover3
 
 Command: 'f' (goForward)/'b' (goBackward)/'r' (turnRight)/'l' (turnLeft)
 
-move(roverName, "command");
+#### move(roverName, "command");
 
-#### Example:
+### Example:
 
 move(rover3, "rrffflff");
