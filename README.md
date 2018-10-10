@@ -6,7 +6,7 @@ Move 3 rovers around a 10x10 grid with obstacles.
 ### Initial position:
 
 Rovers rover1, rover2 and rover3 are positioned on [0,0], [1,0] and [2,0] respectively (grid's top-left corner) 
-and looking north. There are some obstacles around the grid too. The grid can be printed on screen with function:
+and looking north ("R1", "R2" and "R3"). There are some obstacles around the grid too ("O"). The grid can be printed on screen with function:
 
 showGrid();
 
